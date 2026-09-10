@@ -1,0 +1,39 @@
+﻿{
+  "evidence_id": "LOVEOS-EC-001",
+  "system": "LOVE-OS",
+  "version": "1.0",
+  "title": "Immutable Ethical Core Bounded Baseline",
+  "architecture": {
+    "immutable_core": "97%",
+    "governed_extension": "3%"
+  },
+  "proposition": "Within this frozen LOVE-OS control set, consequential execution standing is withheld when the immutable ethical core is not preserved.",
+  "positive_control": {
+    "intention_defined": true,
+    "human_benefit_preserved": true,
+    "harm_boundary_respected": true,
+    "human_authority_preserved": true,
+    "immutable_core_preserved": true,
+    "observed_result": {
+      "standing": "ADMISSIBLE",
+      "execution_admissible": true,
+      "reasons": []
+    }
+  },
+  "negative_control": {
+    "intention_defined": true,
+    "human_benefit_preserved": true,
+    "harm_boundary_respected": true,
+    "human_authority_preserved": true,
+    "immutable_core_preserved": false,
+    "observed_result": {
+      "standing": "WITHHELD",
+      "execution_admissible": false,
+      "reasons": [
+        "IMMUTABLE_ETHICAL_CORE_VIOLATED"
+      ]
+    }
+  },
+  "result": "PASS_WITHIN_FROZEN_BOUNDED_SCOPE",
+  "scope_note": "This record establishes only the behaviour demonstrated by the frozen positive and negative controls. No broader LOVE-OS capability is established by implication."
+}
